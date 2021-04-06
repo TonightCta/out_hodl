@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: '微软雅黑';
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  color: #6b6c6e;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+i, em {
+  font-weight: normal;
+  font-style: normal;
+}
+select,
+input,
+button {
+  border: none;
+  outline: none;
+  transition: .3s all;
+}
+button{
+  cursor: pointer;
+}
+input:hover{
+  border-color: #7444FD!important;
+}
+select {
+  -webkit-appearance: none;
+}
+/* ::-webkit-scrollbar {
+  width: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 0 !important;height: 0;
+} */
+.w1440{
+  width: 100%;
+  max-width: 1440px;
+  margin:0 auto;
+}
+.w1080{
+  width: 1080px;
+  margin:0 auto;
+}
+.el-checkbox{
+  height: 30px;
+  line-height: 30px;
+  margin-right: 5px!important;
+}
+.typeCheck .el-checkbox,.ascriptionList .el-checkbox{
+  width: 45%!important;
+  margin-bottom: 10px!important;
+}
+.reserCheck .el-checkbox{
+  width: 45%!important;
+}
+.el-checkbox__label{
+  padding-left: 6px !important;
+}
+.number{
+  border-radius: 50%!important;
+  background: #EBEDF5!important;
+}
+.more{
+  border-radius: 50%!important;
+  background: #EBEDF5!important;
+}
+.el-pager .active{
+  background: #7444FD!important;
+}
+.btn-prev{
+  background: #EBEDF5!important;
+  border-radius: 50%!important;
+}
+.btn-next{
+  background: #EBEDF5!important;
+  border-radius: 50%!important;
+}
+.el-dialog{
+  border-radius: 12px!important;
+}
+.bindGoo .el-dialog__header{
+  display: none;
+}
+.bindGoo .el-dialog__body{
+  padding: 0!important;
+}
+.el-dialog__header{
+  padding-bottom: 0!important;
+  padding-top: 24px!important;
+  height: 20px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.el-dialog__body{
+  padding: 24px!important;
+}
+.el-dialog__footer{
+  padding-bottom: 40px!important;
+  line-height: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.cancelBtn{
+  width: 80px;
+  height: 40px;
+  border-radius: 28px;
+  color:#666;
+  border:1px solid #999;
+  background: white;
+  font-size: 14px;
+}
+.confirmBtn{
+  width: 80px;
+  height: 40px;
+  border-radius: 28px;
+  color:white;
+  background: #7444FD;
+  font-size: 14px;
+}
+.reportTitle .el-date-editor{
+  width: 160px!important;
+}
+@media screen and (max-width:1024px){
+  .reportTitle .el-date-editor{
+    width: 100%!important;
+    height: 1.35rem!important;
+  }
+  .reportTitle .el-date-editor input{
+    width: 100%!important;
+    height: 1.35rem!important;
+    font-size: .43rem!important;
+  }
+}
+.reportTitle .el-date-editor .el-input__inner{
+  height: 48px;
+  background: white;
+  border:0;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 20px;
+  width: 160px;
+  border-radius: 12px;
+  font-size: 16px;
+  color:#666;
+  cursor:pointer;
+}
+
+.reportTitle .el-date-editor .el-input__prefix{
+  display: none!important;
+}
+.swiper-pagination-bullet-active{
+  background: #7444FD!important;
+}
+.videoDialog .el-dialog,.videoDialogMobile .el-dialog{
+  background: rgba(0,0,0,0)!important;
+  box-shadow: none!important;
+}
+
+.videoDialog .el-icon-close,.videoDialogMobile .el-icon-close{
+  color:white!important;
+  font-size: 24px;
+}
+
+.drawerMobile .el-dialog__close{
+  font-size: 24px;
+}
+.el-message i{
+  font-size: 24px!important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+.bindGoo .el-loading-spinner,.con .el-loading-spinner{
+  padding-top: 10px;
+}
+.el-popup-parent--hidden{
+  padding-right:0 !important;
+}
+@media screen and (min-width:1025px){
+  .el-popup-parent--hidden{
+    padding-right:7px !important;
+  }
+}
+.conditionMobile .el-drawer__wrapper .el-drawer__open .el-drawer__header{
+  display: none!important;
+}
